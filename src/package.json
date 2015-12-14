@@ -7,7 +7,7 @@
     "start": "electron main.js"
   },
   "engines": {
-    "electron": "0.35.4"
+    "electron": "0.36.0"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,11 @@
   },
   "homepage": "https://github.com/mpatkisson/gaines#readme",
   "devDependencies": {
-    "electron-prebuilt": "^0.35.0"
+    "electron-prebuilt": "^0.36.0"
   },
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "jquery": "^2.1.4"
+    "jquery": "^2.1.4",
+    "nodegit": "^0.6.1"
   }
 }
