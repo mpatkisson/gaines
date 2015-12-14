@@ -1,0 +1,25 @@
+{
+  "name": "Gaines",
+  "description": "An electron based Git interface",
+  "main": "main.js",
+  "authors": [
+    "Mike Atkisson"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Electron",
+    "git"
+  ],
+  "homepage": "https://github.com/mpatkisson/gaines",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
