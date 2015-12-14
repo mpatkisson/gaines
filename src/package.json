@@ -25,5 +25,9 @@
   "homepage": "https://github.com/mpatkisson/gaines#readme",
   "devDependencies": {
     "electron-prebuilt": "^0.35.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.1.4"
   }
 }

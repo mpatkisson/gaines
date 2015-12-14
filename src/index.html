@@ -2,14 +2,23 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Gaines - Git Interface</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-    <br />
-    This is a new test
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hello World!</h1>
+        We are using node <script>document.write(process.versions.node)</script>,
+        Chrome <script>document.write(process.versions.chrome)</script>,
+        and Electron <script>document.write(process.versions.electron)</script>.
+      </div>
+    </div>
   </body>
+  <script type="text/javascript">
+    var $ = require('jquery');
+    $(document).ready(function () {
+      alert('loaded');
+    });
+  </script>
 </html>
