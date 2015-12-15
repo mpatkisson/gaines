@@ -17,22 +17,5 @@
     <div id="commit-msg">
     </div>
   </body>
-  <script type="text/javascript">
-    var $ = require('jquery'),
-        Path = require("path"),
-        dir = Path.resolve(".."),
-        Git = require('nodegit');
-
-    $(document).ready(function () {
-      Git.Repository.open(dir)
-        .then(function (repo) {
-          return repo.getMasterCommit();
-        }).then(function (commit) {
-          var html = '<label>Message</label><span>' + commit.message() + '</span>';
-          $('#commit-msg').html(html);
-        }).catch(function (error) {
-          alert(error);
-        });
-    });
-  </script>
+  <script type="text/javascript" src="scripts/history.js"></script>
 </html>
