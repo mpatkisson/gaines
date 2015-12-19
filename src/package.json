@@ -27,6 +27,7 @@
     "electron-prebuilt": "^0.36.0"
   },
   "dependencies": {
+    "babel": "^6.3.13",
     "bootstrap": "^3.3.6",
     "jquery": "^2.1.4",
     "nodegit": "^0.6.1",
